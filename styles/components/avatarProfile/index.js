@@ -1,7 +1,8 @@
+import dataJSON from "../../objects/profileCard/getData.js";
+
 function createAvatarProfile(){
     return /*html*/`
-        <div class="avatar-profile">
-        </div>
+        <img class="avatar-profile" src="${dataJSON.avatar_url}">
     `
 }
 
