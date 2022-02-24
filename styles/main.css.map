@@ -5,10 +5,10 @@
         "main.scss",
         "generic/_base.scss",
         "generic/_settings.scss",
-        "components/avatarProfile/_avatar-profile.scss",
-        "components/devLinks/_img-link.scss",
-        "components/devName/_dev-name.scss",
-        "objects/profileCard/_profile-card.scss"
+        "../components/avatarProfile/_avatar-profile.scss",
+        "../components/devLinks/_img-link.scss",
+        "../components/devName/_dev-name.scss",
+        "../objects/profileCard/_profile-card.scss"
     ],
     "names": [],
     "file": "main.css"

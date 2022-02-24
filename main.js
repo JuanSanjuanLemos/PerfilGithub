@@ -1,4 +1,4 @@
-import createCard from "./styles/objects/profileCard/index.js";
+import createCard from "./objects/profileCard/index.js";
 
 const $root = document.querySelector('#root');
 
