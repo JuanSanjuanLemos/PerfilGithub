@@ -1,0 +1,12 @@
+.dev-description{
+    display: block;
+    display: -webkit-box;
+    text-align: center;
+    font-size: 1.7rem;
+    max-width: 25rem;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 1.5rem;
+}
