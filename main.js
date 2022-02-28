@@ -1,9 +1,12 @@
 import listDevs from "./objects/profileCard/addCard.js";
 
-const $root = document.querySelector('#root');
+const addButton = document.getElementById("add-button");
+addButton.addEventListener('click',writeList);
+function writeList(event){
 
-$root.insertAdjacentHTML(
-    'beforeend',
-    `
-    ${listDevs}
-`)
+    $root.insertAdjacentHTML(
+        'beforeend',
+        `
+        ${listDevs}
+    `)
+}

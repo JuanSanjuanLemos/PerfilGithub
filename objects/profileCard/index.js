@@ -17,6 +17,5 @@ function createCard(){
     }else{
         return ""
     }
-
 }
 export default createCard;
