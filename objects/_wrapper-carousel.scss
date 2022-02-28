@@ -1,6 +1,12 @@
 .wrapper-carousel{
     display: flex;
-    align-items: center;
-    width: inherit;
-    padding: 0 3%;
+    align-content: center;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    .elements{
+        display: flex;
+        gap: 5rem;
+        transition: transform 300ms ease-in-out;
+    }
 }

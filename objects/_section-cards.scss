@@ -1,8 +1,7 @@
 .section-cards{
     display: flex;
+    align-items: center;
     justify-content: flex-start;
-    gap: 2%;
-    width: 80%;
-    margin: auto;
+    width: 100%;
     overflow: hidden;
 }
