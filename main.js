@@ -1,11 +1,11 @@
 import listDevs from "./objects/profileCard/addCard.js";
 
-let root = document.getElementById("root");
-root.innerHTML = listDevs;
+let sectionCards = document.querySelector(".section-cards");
+sectionCards.innerHTML = listDevs;
 
 const addButton = document.getElementById("add-button");
 addButton.addEventListener('click',writeList);
 function writeList(event){
-    root.innerHTML = listDevs;
+    sectionCards.innerHTML = listDevs;
 
 }
