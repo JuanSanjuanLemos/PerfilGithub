@@ -1,8 +1,8 @@
 import createCard from "./index.js";
 let listDevs=[];
 
-const addButton = document.getElementById("add-button");
-addButton.addEventListener('click',addCard)
+const addDev = document.getElementById("add-dev");
+addDev.addEventListener('click',addCard)
 function addCard(event){
     if(createCard!=""){
         listDevs.unshift(createCard());
