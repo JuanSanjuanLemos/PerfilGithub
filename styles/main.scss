@@ -1,5 +1,6 @@
 @import "./generic/base";
 @import "./generic/settings";
+@import "../components/arrowsCarousel/arrows-carousel";
 @import "../components/avatarProfile/avatar-profile";
 @import "../components/devDescription/dev-description";
 @import "../components/devLinks/img-link";
@@ -16,3 +17,4 @@
 @import "../objects/main-header";
 @import "../objects/main-section";
 @import "../objects/section-cards";
+@import "../objects/wrapper-carousel";
